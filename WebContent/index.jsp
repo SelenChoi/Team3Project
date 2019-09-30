@@ -9,6 +9,7 @@
 <body>
 
 <p>이호진은 막내다</p>
+    <hr />
 
 </body>
 </html>
