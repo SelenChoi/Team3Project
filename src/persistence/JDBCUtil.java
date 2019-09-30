@@ -20,7 +20,7 @@ public class JDBCUtil {
 		try {
 
 			Context ctx = new InitialContext();
-			DataSource ds = (DataSource)ctx.lookup("java:comp/env/jdbc/Oracle");
+			DataSource ds = (DataSource) ctx.lookup("java:comp/env/jdbc/Oracle");
 			con = ds.getConnection();
 			con.setAutoCommit(false);
 
